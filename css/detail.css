@@ -1,0 +1,189 @@
+.content{
+	margin-top: 20px;
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+.content .main{
+	width: 80%;
+	
+	margin: 0 auto;
+}
+.content .main .top{
+	
+	height: 400px;
+	width: 100%;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+}
+.content .main .top .left img{
+	width: 100%;
+	height: 100%;
+	
+}
+.content .main .top .left{
+	float: left;
+	width: 56%;
+	height: 100%;
+}
+.content .main .top .right{
+	width: 40%;
+	float: right;
+}
+.content .main .top .right p{
+	width: 100%;
+	
+	line-height: 30px;
+}
+.content .main .top .right p:nth-of-type(1){
+	font-size: 26px;
+	height: 40px;
+	line-height: 40px;
+	font-style: italic;
+}
+.content .main .top .right p:nth-of-type(2){
+	color:red;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 30px;
+	font-size: 20px;
+}
+.content .main .top .right p:nth-of-type(3){
+	text-decoration: line-through;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	font-size: 12px;
+	
+}
+.content .main .top .right p:nth-of-type(4){
+	font-size: 14px;
+	margin-top: 10px;
+}
+.content .main .top .right p:nth-of-type(5){
+	font-size: 14px;
+	margin-top: 10px;
+}
+.content .main .top .right p:nth-of-type(6) {
+	height: 40px;
+	
+	margin-top: 20px;
+}
+.content .main .top .right p:nth-of-type(6) a{
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: olive;
+	margin-right: 10px;
+	font-size: 12px;
+	
+}
+.content .main .top .right p:nth-of-type(6) a:nth-of-type(1){
+	background: white;
+	color: black;
+	border: 1px solid #CCCCCC;
+}
+.content .main .top .right p:nth-of-type(6) a:nth-of-type(1):hover{
+	background: #eee;
+}
+.content .main .top .right p:nth-of-type(6) a:nth-of-type(2){
+	background: green;
+	color: white;
+	border: 1px solid #CCCCCC;
+}
+.content .main .top .right p:nth-of-type(6) a:nth-of-type(2):hover{
+	background: darkgreen;
+}
+.content .main .bottom{
+	
+	margin-top: 20px;
+	height: 1000px;
+}
+.content .main .bottom .left{
+	width: 56%;
+	float: left;
+	
+}
+.content .main .bottom .left img{
+	width: 100%;
+	height: 450px;
+}
+.content .main .bottom .right{
+	float: right;
+	
+	width: 40%;
+}
+
+.content .main .bottom .right .product{
+	width: 100%;
+	height: 80px;
+	
+}
+.content .main .bottom .right .product p{
+	font-size: 14px;
+	
+}
+.content .main .bottom .right .product p:nth-of-type(2){
+	border-bottom: 1px solid black;
+}
+.content .main .bottom .right .product p:nth-of-type(3){
+	color: #999999;
+}
+
+.content .main .bottom .right .protect{
+	width: 100%;
+	height: 400px;
+	
+}
+.content .main .bottom .right .protect div p{
+	font-size: 12px;
+	margin-top: 15px;
+	line-height: 20px;
+	color: #999999;
+	
+}
+.content .main .bottom .right .protect>p{
+	font-size: 14px;
+}
+.content .main .bottom .right .protect>p:nth-of-type(2){
+	border-bottom: 1px solid black;
+}
+
+
+.content .main .bottom .right .shipping{
+	width: 100%;
+	height: 200px;
+	
+}
+.content .main .bottom .right .shipping p{
+	font-size: 14px;
+	line-height: 20px;
+	
+}
+.content .main .bottom .right .shipping p:nth-of-type(2){
+	border-bottom: 1px solid black;
+	margin-bottom: 15px;
+}
+.content .main .bottom .right .shipping p:nth-of-type(3){
+	color: #999999;
+	font-size: 12px;
+}
+
+.content .main .bottom .right .return{
+	width: 100%;
+	height: 200px;
+	
+}
+.content .main .bottom .right .return>p{
+	font-size: 14px;
+	line-height: 20px;
+}
+.content .main .bottom .right .return p:nth-of-type(2){
+	border-bottom: 1px solid black;
+	margin-bottom: 15px;
+}
+.content .main .bottom .right .return p:nth-of-type(3){
+	color: #999999;
+	font-size: 12px;
+}

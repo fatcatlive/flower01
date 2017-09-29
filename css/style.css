@@ -1,0 +1,342 @@
+.banner{
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.banner .list{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	left: 0;
+	top: 0;
+	
+}
+.banner .list li{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+.banner .list li:nth-of-type(1){
+	opacity: 1;
+}
+.banner .list li img{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	left: 0;
+	top: 0;
+}
+.banner .direction{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	left: 0;
+	top: 0;
+}
+.banner .direction a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: white;
+	opacity: 0.4;
+	text-align: center;
+	line-height: 40px;
+	color: black;
+	position: absolute;
+	
+}
+.banner .direction a:nth-of-type(1){
+	left: 0;
+	top: 40%;
+}
+.banner .direction a:nth-of-type(2){
+	right: 0;
+	top: 40%;
+}
+.banner .circle{
+	width: 200px;
+	height:100px;
+	/*background: yellow;*/
+	position: absolute;
+	bottom:-15%;
+	left: 10%;
+}
+.banner .circle a{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background:orange;
+	opacity: 0.4;
+	
+	
+	
+}
+.banner .circle .active{
+	background: red;
+}
+
+/*content*/
+
+.content{
+	width: 100%;
+	height:750px;
+	margin-top: 50px;
+	border-bottom: 1px solid #404040;
+	
+}
+.content .main{
+	width: 80%;
+	margin: 0 auto;
+	height: 740px;
+}
+.content .main>.left{
+	width: 32%;
+	height: 740px;
+	float: left;
+}
+.content .main>.left>.top{
+	position: relative;
+	height: 380px;
+	width: 100%;
+}
+.content .main>.left>.top>img{
+	width: 100%;
+	height: 100%;
+}
+.content .main>.left>.top .time{
+	width: 100%;
+	height: 80px;
+	background: green;
+	opacity: 0.8;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.content .main>.left>.top .time p{
+	color: white;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 5px;
+}
+.content .main>.left>.top .time p:nth-of-type(1) span:nth-of-type(1){
+	display: inline-block;
+	width: 40%;
+	height: 30px;
+	font-size: 26px;
+	font-weight: bolder;
+	text-align: left;
+	margin-left: 40px;
+	float: left;
+	
+}
+.content .main>.left>.top .time p:nth-of-type(1) span:nth-of-type(2){
+	margin-left: 0;
+	float: left;
+	line-height: 35px;
+}
+.content .main>.left>.top .time p:nth-of-type(2) a{
+	display: inline-block;
+	width: 80px;
+	height: 20px;
+	background: white;
+	color: black;
+	border-radius: 10%;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	margin-left: 10px;
+}
+.content .main>.left>.bottom{
+	width: 100%;
+	height: 330px;
+	margin-top: 20px;
+	position: relative;
+}
+.content .main>.left>.bottom img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.content .main>.left>.bottom .con{
+	width: 100%;
+	height: 90px;
+	background: rgba(255,255,255,0.7);
+	position: absolute;
+	left: 0;
+	top: 120px;
+	display: none;
+}
+.content .main>.left>.bottom .con p{
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+}
+.content .main>.left>.bottom .con p:nth-of-type(3) a{
+	display: block;
+	width: 60px;
+	height: 20px;
+	background: black;
+	color: white;
+	font-size: 12px;
+	margin-left: 40%;
+	line-height: 20px;
+}
+.content .main>.left>.bottom .con p:nth-of-type(3) a:hover{
+	color: black;
+	background: white;
+	opacity: 1;
+}
+.content .main>.right{
+	width:65%;
+	height: 740px;
+	float: right;
+}
+.content .main>.right>.top{
+	width: 100%;
+	height: 450px;
+	border-bottom: 2px solid #404040;
+	box-sizing: border-box;
+	
+}
+.content .main>.right>.top>.left{
+	float: left;
+	width: 47%;
+	height: 430px;
+	position: relative;
+	overflow: hidden;
+}
+.content .main>.right>.top>.left img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.content .main>.right>.top>.right img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.content .main>.right>.top>.left .con{
+	width: 100%;
+	height: 90px;
+	background: rgba(255,255,255,0.7);
+	position: absolute;
+	left: 0;
+	top: 180px;
+	display: none;
+}
+.content .main>.right>.top>.left .con p{
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+}
+.content .main>.right>.top>.left .con p:nth-of-type(3){
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+.content .main>.right>.top>.left .con p:nth-of-type(3) a{
+	display: block;
+	width: 60px;
+	height: 20px;
+	background: black;
+	color: white;
+	font-size: 12px;
+	margin-left: 40%;
+	line-height: 20px;
+}
+.content .main>.right>.top>.left .con p:nth-of-type(3) a:hover{
+	color: black;
+	background: white;
+	opacity: 1;
+}
+
+.content .main>.right>.top>.left>img{
+	width: 100%;
+	height: 100%;
+}
+.content .main>.right>.top>.right{
+	float: right;
+	width: 47%;
+	height: 430px;
+	position: relative;
+	overflow: hidden;
+}
+
+.content .main>.right>.top>.right .con{
+	width: 100%;
+	height: 90px;
+	background: rgba(255,255,255,0.7);
+	position: absolute;
+	left: 0;
+	top: 180px;
+	display: none;
+}
+.content .main>.right>.top>.right .con p{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+}
+.content .main>.right>.top>.right .con p:nth-of-type(3){
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+.content .main>.right>.top>.right .con p:nth-of-type(3) a{
+	display: block;
+	width: 60px;
+	height: 20px;
+	background: black;
+	color: white;
+	font-size: 12px;
+	margin-left: 40%;
+	line-height: 20px;
+}
+.content .main>.right>.top>.right .con p:nth-of-type(3) a:hover{
+	color: black;
+	background: white;
+	opacity: 1;
+}
+
+.content .main>.right>.top>.right>img{
+	width: 100%;
+	height: 100%;
+}
+.content .main>.right>.bottom{
+	
+	width: 100%;
+	height: 280px;
+	margin-top: 10px;
+	border-bottom: 2px solid #404040;
+	border-top: 4px solid #404040;
+}
+.content .main>.right>.bottom>.left{
+	width: 50%;
+	height: 270px;
+	float: left;
+}
+.content .main>.right>.bottom>.left img{
+	margin-top: 50px;
+	margin-left: 10px;
+}
+.content .main>.right>.bottom>.right{
+	width: 50%;
+	height: 270px;
+	float: right;
+}
+.content .main>.right>.bottom>.right img{
+	margin-top: 50px;
+	margin-left: 10px;
+}

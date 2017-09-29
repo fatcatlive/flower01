@@ -1,0 +1,147 @@
+
+/*content*/
+
+.content{
+	width: 100%;
+	height:910px;
+	margin-top: 50px;
+	border-bottom: 1px solid #404040;
+	
+}
+.content .main{
+	width: 80%;
+	margin: 0 auto;
+	height: 910px;
+	
+}
+.content .main>p{
+	width: 100%;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.content .main>p a{
+	color: black;
+}
+.content .main .top{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.content .main .top p{
+	 display: inline-block;
+	 width: 25%;
+	 background: white;
+	 height: 50px;
+	 line-height: 50px;
+	 color:#4E8E74 ;
+	 border: 1px solid #4E8E74;
+}
+.content .main .top p:nth-of-type(2){
+	background: #4E8E74;
+	color: white;
+}
+.content .main .top p span{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background:  #4E8E74;
+	line-height: 40px;
+	text-align: center;
+	margin-right: 30px;
+	margin-left: 5px;
+	margin-top: 5px;
+	color: white;
+	font-weight: bolder;
+}
+.content .main .top p:nth-of-type(2) span{
+	margin-right: 60px;
+	background: white;
+	color: #4E8E74;
+}
+.content .main .top p:nth-of-type(3) span{
+	margin-right: 50px;
+}
+.content .main .bottom{
+	width: 100%;
+	height: 700px;
+	border: 1px solid #CCCCCC;
+	position: relative;
+}
+.content .main .bottom>p{
+	width: 100%;
+	height: 50px;
+	color: #4E8E74;
+	font-size: 16px;
+	background: #EEEEEE;
+	line-height: 50px;
+	padding-left: 20px;
+	border-bottom: 1px solid #CCCCCC;
+	
+}
+.content .main .bottom>a{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	background: orange;
+	margin-left: 10px;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	color: black;
+	margin-top: 10px;
+}
+.content .main .bottom form{
+	width: 100%;
+	height: 600px;
+
+	position: absolute;
+	left: 0;
+	top: 100px;
+}
+.content .main .bottom form:nth-of-type(2){
+	display: none;
+}
+ .content .main .bottom form div{
+ 	width: 100%;
+ 	height: 40px;
+ 	margin-top: 5px;
+ 	font-size: 12px;
+ }
+ .content .main .bottom form .textare{
+ 	width: 100%;
+ 	height: 90px;
+ }
+.content .main .bottom form div span{
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	text-align: center;
+}
+.content .main .bottom form div input{
+	width: 200px;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+}
+.content .main .bottom form .sex input{
+	width: 15px;
+	height: 15px;
+}
+.content .main .bottom form .time input{
+	width: 100px;
+	height: 20px;
+}
+.content .main .bottom form>input{
+	width: 100px;
+	height: 40px;
+	background: #4E8E74;
+	border-radius: 5px;
+	text-align:center;
+	line-break: 40px;
+	margin-left: 100px;
+}
